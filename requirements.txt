@@ -1,2 +1,2 @@
 flask == 2.2.3
-flask_frozen == 0.18
+frozen_flask == 0.18
