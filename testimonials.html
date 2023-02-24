@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Computerz101</title>
+        <icon href="../static/img/favicon.ico" type="x-icon">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="../static/img/favicon-4.png" alt="logo" width="30" height="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <script type="text/javascript">
+                var navbar_toggle = document.querySelector('.navbar-toggler');
+                var navbar_collapse = document.querySelector('.navbar-collapse');
+                navbar_toggle.addEventListener('click', function() {
+                    navbar_collapse.classList.toggle('collapse');
+                });
+            </script>
+        </nav>
+        <div class="container">
+            
+<zero-md src="../static/md/testimonials.md">
+    <template>
+        <link rel="stylesheet" href="../static/css/markdown-dark.css">
+    </template>
+</zero-md>
+
+        </div>
+    </body>
+</html>
