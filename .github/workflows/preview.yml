@@ -18,9 +18,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: build
+      - name: Build
         run: |
-          python app.py build
+          flask build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
